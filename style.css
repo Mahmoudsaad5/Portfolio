@@ -1,0 +1,348 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+li {
+    display: inline-block;
+}
+#home {
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/hero\ img.jpg);
+    position: relative;
+}
+.navbar {
+    background-color: #2222223d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: ff305b;
+    z-index: 999999;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo {
+    display: inline-block;
+    background-color: transparent;
+    position: absolute;
+    left: 200px;
+}
+.list {
+    width: 50%;
+    background-color: transparent;
+    float: right;
+    margin: 0px 40px;
+}
+.list ul {
+    list-style: none;
+    float: left;
+}
+.list ul li {
+    margin: 10px 15px;
+    float: right;
+}
+.list ul li a {
+    text-decoration: none;
+    color: white;
+}
+#home .content {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    text-size-adjust: 1000px;
+    font-size: 30px;
+}
+#home .content h1 {
+    color: ff305b;
+}
+/* about page */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0x;
+}
+.about .img {
+    margin-top: 80px;
+    margin-left: 50px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    border: 10px solid #333;
+    padding-left: 10px;
+}
+.layer {
+    background-color: rgba(0, 0, 0, 0.57);
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: all 0.5s;
+}
+.about .img:hover .layer {
+    top: 0px;
+    left: 0px;
+}
+.about .content {
+    float: right;
+    margin-right: 300px;
+    margin-top: 50px; 
+    font-size: larger;
+    margin-left: 5px;
+}
+.about .content p {
+    font-size: 26x;
+}
+.about .content .icon {
+    width: 5px;
+    height: 30px;
+    margin: 20px 15px;
+    background-color: red;
+    float: left;
+}
+.about .content span {
+    margin: 5px;
+    font-weight: bolder;
+}
+.about .content .btn {
+    width: 130px;
+    padding: 20px;
+    margin: 20px 3px;
+    background-color: palevioletred;
+    font-weight: bolder;
+}
+/* our services page  */
+.services {
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: whitesmoke;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.services-head {
+    text-align: center;
+    display: block;
+}
+.services-head h2 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+.item {
+    float: left;
+    margin: 10px;
+    width: 20%;
+    position: relative;
+    left: 50px;
+    text-align: center;
+}
+.services .item p{
+    color: #555555;
+}
+.clear {
+    clear: both;
+}
+.about ctn1 {
+    float: left;
+    display: inline-block;
+    background-color: aquamarine;
+}
+.content {
+    overflow: auto;
+}
+.about ctn2 {
+    float: left;
+    background-color: #161a18;
+}
+/* our portfolio page  */
+.portfolio {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.container-head {
+    text-align: center;
+}
+.container-head h2 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.container-list li {
+    margin-left: 30px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.container-list li span{
+    color:  rgb(255, 48, 91);
+}
+.container-list {
+    text-align: center;
+}
+.portofolio-content img {
+    width: 30%;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px;
+}
+/* client's feedback  */
+.feedback {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.feedback h2 {
+    font-size: 40px;
+}
+.feedback-content {
+    width: 1000px;
+    height: 250px;
+    margin-left: 220px;
+    margin-bottom: 100px;
+    background-color: rgba(101, 97, 97, 0.178);
+    position: relative;
+    overflow: hidden;
+}
+.feedback-img {
+    float: left;
+}
+.feedback-img img {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    padding: 20px;
+    border-radius: 100px;
+    margin-right: 0px;
+    overflow: hidden;
+    z-index: 999999999;
+}
+.m3 {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(255, 48, 91);
+    transform: rotate(140deg);
+    position: absolute;
+    top: -230px;
+    left: -200px;
+}
+.feedback-text {
+    float: left;
+    text-align: left;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.feedback-text h3 {
+    font-size: 22px;
+    margin: 10px 0px;
+}
+.feedback-text p {
+    font-size: 18px;
+    margin: 5PX 0px;
+}
+/* Blog Page */
+.blog-page {
+    background-color: #f1f1f1;
+    ;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.blog-page h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.border {
+    width: 30%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.blog-img img {
+    width: 100%;
+}
+.blog-content {
+    background-color: white;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+.border button {
+    border: 0px;
+    background-color: transparent;
+}
+.border button:hover {
+    color: rgb(255, 48, 91);
+}
+/* contact us page  */
+.contact-us {
+    display: block;
+    width: 100%;
+    margin-top: 50px 0px;
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: white;
+    text-align: center;
+}
+.container2{
+    width: 50%;
+    margin: auto;
+    height: 400px;
+}
+.contact-us h2{
+    font-size: 26px;
+}
+ .contact-us .label1 {
+    margin: 10px;
+    padding-right: 70px;
+    margin-left: 20px; 
+    float: left;
+} 
+ .contact-us .label2 {
+    margin: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    float: right;
+} 
+.contact-us .label3{
+    float: left;
+} 
+.container2 textarea{
+    float: left;
+    width: 750px;
+    height: 150px;
+}
+.container2 button{
+    width: 25%;
+    height: 40px; 
+    color: white;
+    background-color: rgb(255, 48, 91);
+    float: left;
+    margin-top: 30px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-weight: bolder;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #555555;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 18px;
+}
